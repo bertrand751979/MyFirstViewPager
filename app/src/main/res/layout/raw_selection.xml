@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/raw_materialCard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:strokeColor="@color/white"
+        android:backgroundTint="@color/black"
+        app:strokeWidth="4dp"
+        android:layout_margin="1dp"
+        app:cardCornerRadius="12dp">
+
+        <TextView
+            android:id="@+id/raw_selection_city"
+            android:layout_marginTop="10dp"
+            android:layout_width="120dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="City Name"/>
+
+        <TextView
+            android:id="@+id/raw_selection_city_country"
+            android:layout_marginTop="10dp"
+            android:layout_width="120dp"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text=" City Country"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

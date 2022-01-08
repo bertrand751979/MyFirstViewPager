@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/raw_materialCard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        android:layout_margin="2dp"
+        app:cardCornerRadius="12dp">
+
+        <TextView
+            android:id="@+id/raw_city_name"
+            android:layout_marginTop="10dp"
+            android:layout_width="90dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#2C2B2B"
+            android:layout_height="wrap_content"
+            android:text="City Name"/>
+
+        <TextView
+            android:id="@+id/raw_city_country_name"
+            android:layout_marginTop="10dp"
+            android:layout_width="180dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:text="Country"/>
+
+        <TextView
+            android:id="@+id/raw_statut"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#FA0303"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp" />
+
+        <ImageView
+            android:id="@+id/raw_cancel"
+            android:layout_marginTop="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:layout_marginLeft="350dp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
